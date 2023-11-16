@@ -5,13 +5,16 @@ import checker.CheckerConstants;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
-import fileio.input.LibraryInput;
+import fileio.input.*;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -75,7 +78,59 @@ public final class Main {
 
         // TODO add your implementation
 
+//        reading users
+        ArrayList<UserInput> userInputs = library.getUsers();
+        int userCount = 0;
+
+        ArrayList<User> users = new ArrayList<>();
+
+//        storing users
+        for (UserInput userInput : userInputs) {
+            users.add(new User(userInput.getUsername(), userInput.getAge(), userInput.getCity()));
+            ++userCount;
+        }
+
+//        reading songs
+        ArrayList<SongInput> songInputs = library.getSongs();
+        int songsCount = 0;
+
+        ArrayList<Song> songs = new ArrayList<>();
+//        storing songs
+        for (SongInput songInput : songInputs) {
+            songs.add(new Song(songInput.getName(), songInput.getDuration(), songInput.getAlbum(),
+                    songInput.getTags(), songInput.getLyrics(), songInput.getGenre(),
+                    songInput.getReleaseYear(), songInput.getArtist()));
+
+            ++songsCount;
+        }
+
+//        reading Podcasts && Episodes
+        ArrayList<PodcastInput> podcastInputs = library.getPodcasts();
+        int podcastsCount = 0;
+
+        ArrayList<Podcast> podcasts = new ArrayList<>();
+        for (PodcastInput podcastInput : podcastInputs) {
+            ArrayList<Episode> episodes = new ArrayList<>();
+            for (EpisodeInput episodeInput : podcastInput.getEpisodes()) {
+                episodes.add(new Episode(episodeInput));
+            }
+            podcasts.add(new Podcast(podcastInput.getName(), podcastInput.getOwner(), episodes));
+            ++podcastsCount;
+        }
+
+//        reading input test files
+        ArrayList<Objects> searchBarInputs = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + filePathInput), ArrayList.class);
+
+//        for (Objects command : searchBarInputs) {
+//
+//        }
+
+
+
         ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
         objectWriter.writeValue(new File(filePathOutput), outputs);
     }
 }
+
+
+
