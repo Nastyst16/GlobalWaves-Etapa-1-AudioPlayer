@@ -2,6 +2,7 @@ package main;
 
 import checker.Checker;
 import checker.CheckerConstants;
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
@@ -15,6 +16,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 
 /**
@@ -119,15 +121,43 @@ public final class Main {
         }
 
 //        reading input test files
-        ArrayList<Objects> searchBarInputs = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + filePathInput), ArrayList.class);
 
-//        for (Objects command : searchBarInputs) {
-//
-//        }
+        ArrayList<SearchBar> searchBarInputs = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH +
+                                                filePathInput), new TypeReference<ArrayList<SearchBar>>() {} );
+
+        ArrayList<Command> commands = new ArrayList<>();
+
+//        pana aici e bine
+
+        for (SearchBar searchBarInput : searchBarInputs) {
+
+//            debugging
+            int x = 5;
+
+            String command = searchBarInput.getCommand();
+            if (command.equals("search")) {
+                commands.add(new SearchCommand(searchBarInput.getCommand(), searchBarInput.getUsername(),
+                        searchBarInput.getTimestamp(), searchBarInput.getType(), searchBarInput.getFilters()));
+
+//                if only type is songs:
+                if (searchBarInput.getType().equals("song"))
+                    ((SearchCommand)(commands.getLast())).searchingBySongType(songs);
+
+            }
+            if (command.equals("select")) {
+                commands.add(new SelectCommand(searchBarInput.getCommand(), searchBarInput.getUsername(),
+                        searchBarInput.getTimestamp(), searchBarInput.getItemNumber()));
+            }
+//            add the rest of the commands later
+        }
 
 
 
-        ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
+
+        int a = 5;
+
+
+                ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
         objectWriter.writeValue(new File(filePathOutput), outputs);
     }
 }

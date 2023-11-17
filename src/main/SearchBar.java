@@ -1,17 +1,21 @@
 package main;
 
 import java.util.ArrayList;
+import java.util.Map;
 
 public class SearchBar {
     private String command;
-    private String user;
+    private String username;
     private int timestamp;
-    private String message;
-    private ArrayList<String> results;
+    private String type;
+    private Map<String, Object> filters;
+    private int itemNumber;
+    private String playlistName;
+    private String playlistId;
+    private int seed;
 
-    public SearchBar(String user, int timestamp, String message, ArrayList<String> results) {
-        this.user = user;
-        this.timestamp = timestamp;
+    public SearchBar() {
+
     }
 
     public String getCommand() {
@@ -22,12 +26,12 @@ public class SearchBar {
         this.command = command;
     }
 
-    public String getUser() {
-        return user;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUser(String user) {
-        this.user = user;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public int getTimestamp() {
@@ -38,5 +42,51 @@ public class SearchBar {
         this.timestamp = timestamp;
     }
 
+    public String getType() {
+        return type;
+    }
 
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public Map<String, Object> getFilters() {
+        return filters;
+    }
+
+    public void setFilters(Map<String, Object> filters) {
+        this.filters = filters;
+    }
+
+    public int getItemNumber() {
+        return itemNumber;
+    }
+
+    public void setItemNumber(int itemNumber) {
+        this.itemNumber = itemNumber;
+    }
+
+    public String getPlaylistName() {
+        return playlistName;
+    }
+
+    public void setPlaylistName(String playlistName) {
+        this.playlistName = playlistName;
+    }
+
+    public String getPlaylistId() {
+        return playlistId;
+    }
+
+    public void setPlaylistId(String playlistId) {
+        this.playlistId = playlistId;
+    }
+
+    public int getSeed() {
+        return seed;
+    }
+
+    public void setSeed(int seed) {
+        this.seed = seed;
+    }
 }
