@@ -2,10 +2,11 @@ package main;
 
 import fileio.input.EpisodeInput;
 
-public class Episode {
+public class Episode implements Type{
     private String name;
     private int duration;
     private String description;
+    private int secondsGone;
 
 
     public Episode(EpisodeInput episodeInput) {
@@ -36,5 +37,18 @@ public class Episode {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public int getSecondsGone() {
+        return secondsGone;
+    }
+
+    public void setSecondsGone(int secondsGone) {
+        this.secondsGone = secondsGone;
+    }
+
+    @Override
+    public void execute() {
+
     }
 }

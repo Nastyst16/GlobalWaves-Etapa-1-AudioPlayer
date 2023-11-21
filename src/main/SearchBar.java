@@ -11,7 +11,7 @@ public class SearchBar {
     private Map<String, Object> filters;
     private int itemNumber;
     private String playlistName;
-    private String playlistId;
+    private int playlistId;
     private int seed;
 
     public SearchBar() {
@@ -74,11 +74,11 @@ public class SearchBar {
         this.playlistName = playlistName;
     }
 
-    public String getPlaylistId() {
+    public int getPlaylistId() {
         return playlistId;
     }
 
-    public void setPlaylistId(String playlistId) {
+    public void setPlaylistId(int playlistId) {
         this.playlistId = playlistId;
     }
 
