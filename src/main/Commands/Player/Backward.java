@@ -20,16 +20,18 @@ public class Backward implements Command {
 
     public void setBackward(User currentUser) {
 
+        if (currentUser.getTypeLoaded() != 1) {
+            this.message = "The loaded source is not a podcast.";
+            return;
+        }
+
         if (currentUser.getCurrentType() == null) {
             this.message = "Please load a source before returning to the previous track.";
             return;
         }
 
 
-        if (currentUser.getTypeLoaded() != 1) {
-            this.message = "The loaded source is not a podcast.";
-            return;
-        }
+
 
         currentUser.getCurrentType().setSecondsGone(currentUser.getCurrentType().getSecondsGone() - 90);
         this.message = "Rewound successfully.";

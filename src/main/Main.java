@@ -129,6 +129,7 @@ public final class Main {
 
 
 
+
 //        reading input test files
 
         ArrayList<SearchBar> searchBarInputs = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH +
@@ -152,6 +153,11 @@ public final class Main {
                     currentUser = user;
                     break;
                 }
+
+
+            if (searchBarInput.getTimestamp() == 5570) {
+                int x = 5;
+            }
 
 
 
@@ -252,7 +258,7 @@ public final class Main {
                             currentUser.setTypeSelected(1);
                         else if (currentUser.getTypeFoundBySearch() == 2) {
                             currentUser.setTypeSelected(2);
-//                            currentUser.setSelectedPlaylist(name);
+
 
                             for (Playlist playlist : everyPlaylist) {
                                 if (playlist.getName().equals(name)) {
@@ -401,7 +407,7 @@ public final class Main {
                 commands.add(new PlayPause(searchBarInput.getCommand(), searchBarInput.getUsername(),
                         searchBarInput.getTimestamp()));
 
-                if (!currentUser.isPaused()) {
+                if (!currentUser.isPaused() && currentUser.getTypeLoaded() != -1) {
                     ((PlayPause)commands.getLast()).setMessage("Playback paused successfully.");
 //                    timestampAtPausing = ((PlayPause)commands.getLast()).getTimestamp();
                     currentUser.setTimestampAtPausing(((PlayPause)commands.getLast()).getTimestamp());
@@ -412,7 +418,7 @@ public final class Main {
 
                     currentUser.setPaused(true);
 
-                } else {
+                } else if (currentUser.isPaused() && currentUser.getTypeLoaded() != -1) {
                     ((PlayPause) commands.getLast()).setMessage("Playback resumed successfully.");
 
                     currentUser.setTimestampAtPlaying(((PlayPause) commands.getLast()).getTimestamp());
@@ -452,6 +458,12 @@ public final class Main {
                 commands.add(new Shuffle(searchBarInput.getCommand(), searchBarInput.getUsername(),
                         searchBarInput.getTimestamp(), searchBarInput.getSeed()));
 
+                if (searchBarInput.getTimestamp() == 6460) {
+                    int x = 5;
+                }
+
+                currentUser.setShuffleSeed(searchBarInput.getSeed());
+
                 ((Shuffle)(commands.getLast())).settingShuffle(currentUser);
 
                 int x =5;
@@ -490,7 +502,7 @@ public final class Main {
 
                 if (currentUser.getCurrentType() != null) {
 //                    if we have loaded a song
-                    boolean like = currentUser.setLikedSongs((Song)currentUser.getCurrentType());
+                    boolean like = currentUser.setLikedSongs((Song)currentUser.getCurrentType(), songs);
                     ((Like)(commands.getLast())).setMessageIfLiked(like);
                 } else if (currentUser.getTypeLoaded() == 2) {
 //                    if we have loaded a playlist
@@ -505,9 +517,7 @@ public final class Main {
                 commands.add(new ShowPlaylists(searchBarInput.getCommand(), searchBarInput.getUsername(),
                         searchBarInput.getTimestamp()));
 
-                if (searchBarInput.getTimestamp() == 1100) {
-                    int x = 5;
-                }
+
 
                 ArrayList<Playlist> copyList = new ArrayList<>();
 
@@ -522,16 +532,32 @@ public final class Main {
                 ((ShowPreferredSongs)(commands.getLast())).setResult(currentUser);
             }
             if (command.equals("next")) {
+
+                if (searchBarInput.getTimestamp() == 6240) {
+                    int x = 5;
+                }
+
+                currentUser.setNext(true);
+
                 commands.add((new Next(searchBarInput.getCommand(), searchBarInput.getUsername(),
                         searchBarInput.getTimestamp())));
 
                 ((Next)(commands.getLast())).setNext(currentUser);
+
+                currentUser.setNext(false);
 
 
             }
             if (command.equals("prev")) {
                 commands.add((new Prev(searchBarInput.getCommand(), searchBarInput.getUsername(),
                         searchBarInput.getTimestamp())));
+
+
+                if (searchBarInput.getTimestamp() == 5471) {
+                    int x = 5;
+                }
+
+
 
                 ((Prev)(commands.getLast())).setPrev(currentUser, currentUser.getCurrentType());
 

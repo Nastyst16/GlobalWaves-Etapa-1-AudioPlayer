@@ -75,6 +75,9 @@ public class Status implements Command {
 
     public void settingNoType(User currentUser) {
         currentUser.setPaused(true);
+        currentUser.setTypeLoaded(-1);
+        currentUser.setTypeSelected(-1);
+
 
         stats.put("name", "");
         stats.put("remainedTime", 0);

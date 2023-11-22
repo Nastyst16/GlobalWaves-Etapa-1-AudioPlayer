@@ -33,22 +33,29 @@ public class Follow implements Command {
             return;
         }
 
-        currentUser.getFollowedPlaylists().remove(currentUser.getSelectedPlaylist());
+
+        if (currentUser.getUsername().equals(currentUser.getSelectedPlaylist().getUser())) {
+            this.message = "You cannot follow or unfollow your own playlist.";
+            return;
+        }
+
+
+//        currentUser.getFollowedPlaylists().remove(currentUser.getSelectedPlaylist());
         int indexPlaylist = everyPlaylist.indexOf(currentUser.getSelectedPlaylist());
 
         if (currentUser.getFollowedPlaylists().contains(currentUser.getSelectedPlaylist())) {
 
             everyPlaylist.get(indexPlaylist).decrementFollowers();
+            currentUser.getFollowedPlaylists().remove(currentUser.getSelectedPlaylist());
+            this.message = "Playlist unfollowed successfully.";
 
         } else {
             everyPlaylist.get(indexPlaylist).incrementFollowers();
+            currentUser.getFollowedPlaylists().add(currentUser.getSelectedPlaylist());
+            this.message = "Playlist followed successfully.";
         }
 
-//        int index = currentUser.getFollowedPlaylists().indexOf()
 
-
-
-        this.message = "Playlist followed successfully.";
     }
 
 

@@ -29,6 +29,7 @@ public class User {
     private int remainingTime;
     private String repeatString;
     private int timestampAtStatus;
+    private boolean isNext;
 
 
     private Search currentSearch;
@@ -40,10 +41,13 @@ public class User {
     private int prevTimestamp;
     private Podcast currentPodcast;
     private Playlist currentPlaylist;
+    private ArrayList<Integer> originalIndices;
     private ArrayList<Integer> shuffledIndices;
 //    private ArrayList<Song> currentPlaylistSongsShuffled;
     private String selectedName;
     private int shuffleSeed;
+    private String nameSearched;
+
 
 
 //    private Song currentSong;
@@ -57,7 +61,7 @@ public class User {
     private Playlist selectedPlaylist;
 
 
-    public User(String username, int age, String city, ArrayList<Song> eveySong, ArrayList<Podcast> everyPodcast) {
+    public User(String username, int age, String city, ArrayList<Song> everySong, ArrayList<Podcast> everyPodcast) {
         this.username = username;
         this.age = age;
         this.city = city;
@@ -85,13 +89,17 @@ public class User {
         playListList = new ArrayList<>();
 
         this.shuffledIndices = new ArrayList<>();
+        this.originalIndices = new ArrayList<>();
 //        this.currentPlaylistSongsShuffled = new ArrayList<>();
+
+        this.everySong = everySong;
+        this.everyPodcast = everyPodcast;
 
 
 //        copy the songs and the podcasts
 
         this.everySong = new ArrayList<>();
-        for (Song song : eveySong) {
+        for (Song song : everySong) {
             Song copySong = new Song();
             copySong.setName(song.getName());
             copySong.setDuration(song.getDuration());
@@ -106,15 +114,15 @@ public class User {
 
             this.everySong.add(copySong);
         }
-
-        this.everyPodcast = new ArrayList<>();
-        for (Podcast podcast : everyPodcast) {
-            Podcast copyPodcast = new Podcast();
-
-            copyPodcast.setName();
-        }
-
-        this.followedPlaylists = new ArrayList<>();
+//
+//        this.everyPodcast = new ArrayList<>();
+//        for (Podcast podcast : everyPodcast) {
+//            Podcast copyPodcast = new Podcast();
+//
+//            copyPodcast.setName();
+//        }
+//
+//        this.followedPlaylists = new ArrayList<>();
 
     }
 
@@ -122,15 +130,36 @@ public class User {
         playListList.add(playList);
     }
 
-    public boolean setLikedSongs(Song song) {
+    public boolean setLikedSongs(Song song, ArrayList<Song> songs) {
         if (this.likedSongs.contains(song)) {
             this.likedSongs.remove(song);
             song.setNumberOfLikes(song.getNumberOfLikes() - 1);
+
+            for (Song tmp : songs) {
+                if (tmp.getName().equals(song.getName())) {
+                    tmp.setNumberOfLikes(tmp.getNumberOfLikes() - 1);
+                    break;
+                }
+            }
+
+
+
             return false;
         }
         else {
             this.likedSongs.add(song);
             song.setNumberOfLikes(song.getNumberOfLikes() + 1);
+
+
+            for (Song tmp : songs) {
+                if (tmp.getName().equals(song.getName())) {
+                    tmp.setNumberOfLikes(tmp.getNumberOfLikes() + 1);
+                    break;
+                }
+            }
+
+
+
             return true;
         }
     }
@@ -149,6 +178,22 @@ public class User {
 
 
         currentUser.setRemainingTime(currentType.getDuration() - currentType.getSecondsGone());
+
+
+        if (currentUser.getTypeLoaded() == 2 && currentUser.getRepeatStatus() == 2 &&
+                currentUser.getRemainingTime() <= 0) {
+
+            currentType.setSecondsGone(currentType.getSecondsGone() - currentType.getDuration());
+            currentUser.setRemainingTime(currentType.getDuration());
+            this.currentType = currentType;
+            currentUser.setCurrentType(currentType);
+        }
+
+
+
+
+
+
 
         if (currentUser.getTypeLoaded() == 0 || currentUser.getTypeLoaded() == 1) {
 
@@ -200,6 +245,12 @@ public class User {
                 currentUser.setRemainingTime(currentType.getDuration() - currentType.getSecondsGone());
 
                 int debug = 5;
+
+                if (currentUser.isNext() == true) {
+                    this.currentType = currentType;
+                    currentUser.setCurrentType(currentType);
+                    return;
+                }
             }
 
         }
@@ -210,6 +261,23 @@ public class User {
 //            commuting the next song in playlist
             while (currentUser.getRemainingTime() <= 0) {
                 Playlist playlist = currentUser.getCurrentPlaylist();
+
+
+                if (currentUser.getRepeatStatus() == 1 && currentUser.getCurrentPlaylist().getSongList().getLast().getName().equals(currentType.getName())) {
+
+                    int secsGone = currentType.getSecondsGone() - currentType.getDuration();
+
+                    currentType = currentUser.getCurrentPlaylist().getSongList().getFirst();
+                    currentType.setSecondsGone(secsGone);
+                    currentUser.setRemainingTime(currentType.getDuration() - currentType.getSecondsGone());
+
+                    break;
+                }
+
+
+
+
+
 
                 int indexSong = playlist.getSongList().indexOf((Song) (currentType));
 
@@ -222,7 +290,18 @@ public class User {
 
                     int nextShuffledIndex = currentUser.getShuffledIndices().indexOf(indexSong) + 1;
 //
-                    if (nextShuffledIndex == currentUser.getShuffledIndices().size()) {
+                    if (nextShuffledIndex == currentUser.getShuffledIndices().size() && currentUser.getRepeatStatus() == 1) {
+
+                        int firstIndex = currentUser.getShuffledIndices().getFirst();
+                        currentType = currentUser.getCurrentPlaylist().getSongList().get(firstIndex);
+
+                        currentType.setSecondsGone(Math.abs(currentUser.getRemainingTime()));
+
+                        currentUser.setRemainingTime(currentType.getDuration() - currentType.getSecondsGone());
+
+                        continue;
+
+                    } else if (nextShuffledIndex == currentUser.getShuffledIndices().size()) {
 //                        nextShuffledIndex = currentUser.getShuffledIndices().getFirst();
 
 //                        end of playlist;
@@ -253,28 +332,24 @@ public class User {
                         break;
                     }
                 }
-
+//                else if (currentUser.getRepeatStatus() == 1) {
 //
-
-
+//                }
 
 
                 currentType.setSecondsGone(Math.abs(currentUser.getRemainingTime()));
 
                 currentUser.setRemainingTime(currentType.getDuration() - currentType.getSecondsGone());
 
+                if (currentUser.isNext() == true) {
+                    this.currentType = currentType;
+                    currentUser.setCurrentType(currentType);
+                    return;
+                }
+
+
             }
-            if (currentUser.getRepeatStatus() == 1 && currentUser.getCurrentPlaylist().getSongList().getLast().getName().equals(currentType.getName())) {
 
-                int secsGone = currentType.getSecondsGone() - currentType.getDuration();
-
-                currentType = currentUser.getCurrentPlaylist().getSongList().getFirst();
-                currentType.setSecondsGone(secsGone);
-                currentUser.setRemainingTime(currentType.getDuration() - currentType.getSecondsGone());
-
-
-                int r = 5;
-            }
 
         }
 
@@ -614,5 +689,29 @@ public class User {
 
     public void setEveryPodcast(ArrayList<Podcast> everyPodcast) {
         this.everyPodcast = everyPodcast;
+    }
+
+    public boolean isNext() {
+        return isNext;
+    }
+
+    public void setNext(boolean next) {
+        isNext = next;
+    }
+
+    public ArrayList<Integer> getOriginalIndices() {
+        return originalIndices;
+    }
+
+    public void setOriginalIndices(ArrayList<Integer> originalIndices) {
+        this.originalIndices = originalIndices;
+    }
+
+    public String getNameSearched() {
+        return nameSearched;
+    }
+
+    public void setNameSearched(String nameSearched) {
+        this.nameSearched = nameSearched;
     }
 }

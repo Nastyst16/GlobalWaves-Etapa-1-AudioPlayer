@@ -34,7 +34,23 @@ public class Prev implements Command {
             if (currentType.getSecondsGone() > 0) {
                 currentType.setSecondsGone(0);
             } else if (currentType.getSecondsGone() == 0) {
-                if (currentUser.isShuffle()) {
+                if (currentUser.isShuffle()) { // aici e buba
+
+//                    int index = currentUser.getShuffledIndices().getFirst();
+//                    if (currentUser.getCurrentPlaylist().getSongList().get)
+
+
+                    int prevIndex = currentUser.getCurrentPlaylist().getSongList().indexOf(currentType);
+                    prevIndex = currentUser.getShuffledIndices().indexOf(prevIndex) - 1;
+
+                    if (prevIndex == -1) {
+                        currentType.setSecondsGone(0);
+                    } else {
+                        prevIndex = currentUser.getShuffledIndices().get(prevIndex);
+                        currentType = currentUser.getCurrentPlaylist().getSongList().get(prevIndex);
+                        currentType.setSecondsGone(0);
+                    }
+
 
                 } else {
 //                    if it's the first song of the playlist
@@ -57,6 +73,7 @@ public class Prev implements Command {
         }
 
         currentUser.setCurrentType(currentType);
+        currentUser.setPaused(false);
 
         if (currentUser.getCurrentType() != null) {
             this.message = "Returned to previous track successfully. The current track is " + currentType.getName() + ".";

@@ -19,7 +19,17 @@ public class Next implements Command {
 
     public void setNext(User currentUser) {
 
-        if (currentUser.getCurrentType() == null) {
+
+        if (currentUser.getTypeLoaded() == 2 && currentUser.getRepeatStatus() == 0) {
+            int index = currentUser.getCurrentPlaylist().getSongList().indexOf(currentUser.getCurrentType());
+            if (currentUser.getCurrentPlaylist().getSongList().size() == index + 1 &&
+                    currentUser.getCurrentPlaylist().getSongList().size() == 1) {
+
+                currentUser.setCurrentType(null);
+            }
+        }
+
+        if (currentUser.getCurrentType() == null || currentUser.getTypeLoaded() == -1) {
             this.message = "Please load a source before skipping to the next track.";
             return;
         }
@@ -29,17 +39,29 @@ public class Next implements Command {
         }
 
 
+        currentUser.setNext(true);
 
         Type currentType = currentUser.getCurrentType();
 
         currentType.setSecondsGone(currentType.getDuration());
 
+
+
+
+
+
+
         currentUser.treatingRepeatStatus(currentUser, currentType);
+        currentUser.setPaused(false);
+
+        currentUser.setNext(false);
 
 
 
         if (currentUser.getCurrentType() != null)  // you have to implement if you are at the last song;
-        this.message = "Skipped to next track successfully. The current track is " + currentUser.getCurrentType().getName() + ".";
+            this.message = "Skipped to next track successfully. The current track is " + currentUser.getCurrentType().getName() + ".";
+        else
+            this.message = "Please load a source before skipping to the next track.";
 
     }
 

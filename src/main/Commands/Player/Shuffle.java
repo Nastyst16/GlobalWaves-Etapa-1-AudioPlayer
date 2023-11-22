@@ -35,22 +35,21 @@ public class Shuffle implements Command {
                 this.message = "Shuffle function activated successfully.";
                 currentUser.setShuffle(true);
 
-                ArrayList<Integer> originalIndices = new ArrayList<>();
                 for (int i = 0; i < currentUser.getCurrentPlaylist().getSongList().size(); i++) {
-                    originalIndices.add(i);
+                    currentUser.getOriginalIndices().add(i);
                 }
-                currentUser.getShuffledIndices().addAll(originalIndices);
+                currentUser.getShuffledIndices().addAll(currentUser.getOriginalIndices());
+
                 Random rand = new Random(this.seed);
                 Collections.shuffle(currentUser.getShuffledIndices(), rand);
 
+                int x = 5;
             } else {
                 this.message = "Shuffle function deactivated successfully.";
                 currentUser.setShuffle(false);
 
-                while (!currentUser.getShuffledIndices().isEmpty()) {
-                    currentUser.getShuffledIndices().removeFirst();
-                }
-
+                currentUser.getOriginalIndices().clear();
+                currentUser.getShuffledIndices().clear();
 
             }
             currentUser.setShuffleSeed(this.seed);
