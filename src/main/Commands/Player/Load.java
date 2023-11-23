@@ -84,17 +84,22 @@ public class Load implements Command {
                         } else {
 //                              adding to the currentUser the loaded podcast
                             currentUser.addPodcastPlayed(podcast);
+
+                            int lastPodcast = currentUser.getPodcastsPlayed().size() - 1;
+                            int lastEpisode = currentUser.getPodcastsPlayed().
+                                    get(lastPodcast).getEpisodes().size() - 1;
+
 //                              setting last episode watched to 0
-                            currentUser.getPodcastsPlayed().getLast().setLastRemainingEpisode(0);
+                            currentUser.getPodcastsPlayed().get(lastPodcast).setLastRemainingEpisode(0);
 //                              setting the remaining second;
-                            currentUser.getPodcastsPlayed().getLast().getEpisodes().
-                                    getLast().setSecondsGone(0);
+                            currentUser.getPodcastsPlayed().get(lastPodcast).getEpisodes().
+                                    get(lastEpisode).setSecondsGone(0);
 
                             currentUser.setRemainingTime(podcast.getEpisodes().
-                                    getLast().getDuration());
+                                    get(lastEpisode).getDuration());
 
 //                               current type is Podcast
-                            currentUser.setCurrentType(currentUser.getPodcastsPlayed().getLast());
+                            currentUser.setCurrentType(currentUser.getPodcastsPlayed().get(lastPodcast));
 
 //                               current type is Episode
                             currentUser.setCurrentType(((Podcast) (currentUser.getCurrentType())).
@@ -113,7 +118,7 @@ public class Load implements Command {
                         currentUser.setTypeLoaded(2);
 
                         currentUser.setCurrentPlaylist(playlist);
-                        currentUser.setCurrentType(playlist.getSongList().getFirst());
+                        currentUser.setCurrentType(playlist.getSongList().get(0));
                         currentUser.setRemainingTime(currentUser.getCurrentType().getDuration());
                         currentUser.getCurrentType().setSecondsGone(0);
 

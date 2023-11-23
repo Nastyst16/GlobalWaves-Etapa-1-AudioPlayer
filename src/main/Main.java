@@ -161,40 +161,41 @@ public final class Main {
             if (user != null) {
                 user.setPrevTimestamp(input.getTimestamp());
             }
+            int index = commands.size();
 
             if (command.equals("search")) {
 //                adding the search command, and initializing
                 commands.add(new Search(input.getCommand(), input.getUsername(),
                         input.getTimestamp(), input.getType(), input.getFilters()));
 
-                ((Search) (commands.getLast())).setSearch(user, songs, everyPlaylist, podcasts);
+                ((Search) (commands.get(index))).setSearch(user, songs, everyPlaylist, podcasts);
 
             } else if (command.equals("select")) {
 
                 commands.add(new Select(input.getCommand(), input.getUsername(),
                         input.getTimestamp(), input.getItemNumber()));
 
-                ((Select) (commands.getLast())).setSelect(user, everyPlaylist);
+                ((Select) (commands.get(index))).setSelect(user, everyPlaylist);
 
             } else if (command.equals("load")) {
 
                 commands.add(new Load(input.getCommand(), input.getUsername(),
                         input.getTimestamp()));
 
-                ((Load) (commands.getLast())).setLoad(user, everyPlaylist, podcasts);
+                ((Load) (commands.get(index))).setLoad(user, everyPlaylist, podcasts);
 
             } else if (command.equals("playPause")) {
                 commands.add(new PlayPause(input.getCommand(), input.getUsername(),
                         input.getTimestamp()));
 
-                ((PlayPause) (commands.getLast())).setPlayPause(user);
+                ((PlayPause) (commands.get(index))).setPlayPause(user);
 
             } else if (command.equals("repeat")) {
 //
                 commands.add(new Repeat(input.getCommand(), input.getUsername(),
                         input.getTimestamp()));
 
-                user.setRepeatStatus(((Repeat) (commands.getLast())).setRepeatMessage(user,
+                user.setRepeatStatus(((Repeat) (commands.get(index))).setRepeatMessage(user,
                         user.getRepeatStatus(), user.getTypeLoaded()));
 
             } else if (command.equals("status")) {
@@ -203,12 +204,12 @@ public final class Main {
                         input.getTimestamp()));
 
                 if (user.getCurrentType() != null) {
-                    ((Status) (commands.getLast())).settingStats(user);
+                    ((Status) (commands.get(index))).settingStats(user);
                 } else {
-                    ((Status) (commands.getLast())).settingNoType(user);
+                    ((Status) (commands.get(index))).settingNoType(user);
                 }
 
-                if (((Status) (commands.getLast())).getRemainingTime() == 0
+                if (((Status) (commands.get(index))).getRemainingTime() == 0
                         && user.getRepeatStatus() == 0) {
                     user.setPaused(true);
                     user.setCurrentType(null);
@@ -220,7 +221,7 @@ public final class Main {
 
                 user.setShuffleSeed(input.getSeed());
 
-                ((Shuffle) (commands.getLast())).settingShuffle(user);
+                ((Shuffle) (commands.get(index))).settingShuffle(user);
 
             } else if (command.equals("createPlaylist")) {
 
@@ -236,8 +237,8 @@ public final class Main {
                         input.getTimestamp(), input.getPlaylistName(), message));
 
                 if (!message.equals("A playlist with the same name already exists.")) {
-                    user.addPlaylistToList(((CreatePlayList) (commands.getLast())).getPlaylist());
-                    everyPlaylist.add(((CreatePlayList) (commands.getLast())).getPlaylist());
+                    user.addPlaylistToList(((CreatePlayList) (commands.get(index))).getPlaylist());
+                    everyPlaylist.add(((CreatePlayList) (commands.get(index))).getPlaylist());
                 }
 
             } else if (command.equals("addRemoveInPlaylist")) {
@@ -245,14 +246,14 @@ public final class Main {
                         input.getTimestamp(), input.getPlaylistId()));
 
 //                setting message;
-                ((AddRemoveInPlaylist) (commands.getLast())).
+                ((AddRemoveInPlaylist) (commands.get(index))).
                         setMessage(user, input.getPlaylistId());
 
             } else if (command.equals("like")) {
                 commands.add(new Like(input.getCommand(), input.getUsername(),
                         input.getTimestamp()));
 
-                ((Like) (commands.getLast())).likeHelper(user, songs);
+                ((Like) (commands.get(index))).likeHelper(user, songs);
 
             } else if (command.equals("showPlaylists")) {
                 commands.add(new ShowPlaylists(input.getCommand(), input.getUsername(),
@@ -260,15 +261,15 @@ public final class Main {
 
 //                copying the playlists
                 ArrayList<Playlist> copyList = new ArrayList<>();
-                ((ShowPlaylists) (commands.getLast())).copyPlaylists(user, copyList);
+                ((ShowPlaylists) (commands.get(index))).copyPlaylists(user, copyList);
 
-                ((ShowPlaylists) (commands.getLast())).setResult(copyList);
+                ((ShowPlaylists) (commands.get(index))).setResult(copyList);
 
             } else if (command.equals("showPreferredSongs")) {
                 commands.add(new ShowPreferredSongs(input.getCommand(), input.getUsername(),
                         input.getTimestamp()));
 
-                ((ShowPreferredSongs) (commands.getLast())).setResult(user);
+                ((ShowPreferredSongs) (commands.get(index))).setResult(user);
 
             } else if (command.equals("next")) {
                 user.setNext(true);
@@ -276,48 +277,48 @@ public final class Main {
                 commands.add((new Next(input.getCommand(), input.getUsername(),
                         input.getTimestamp())));
 
-                ((Next) (commands.getLast())).setNext(user);
+                ((Next) (commands.get(index))).setNext(user);
 
                 user.setNext(false);
             } else if (command.equals("prev")) {
                 commands.add((new Prev(input.getCommand(), input.getUsername(),
                         input.getTimestamp())));
 
-                ((Prev) (commands.getLast())).setPrev(user);
+                ((Prev) (commands.get(index))).setPrev(user);
 
             } else if (command.equals("forward")) {
                 commands.add((new Forward(input.getCommand(), input.getUsername(),
                         input.getTimestamp())));
 
-                ((Forward) (commands.getLast())).setForward(user);
+                ((Forward) (commands.get(index))).setForward(user);
 
             } else if (command.equals("backward")) {
                 commands.add((new Backward(input.getCommand(), input.getUsername(),
                         input.getTimestamp())));
 
-                ((Backward) (commands.getLast())).setBackward(user);
+                ((Backward) (commands.get(index))).setBackward(user);
 
             } else if (command.equals("follow")) {
                 commands.add((new Follow(input.getCommand(), input.getUsername(),
                         input.getTimestamp())));
 
-                ((Follow) (commands.getLast())).setFollow(user, everyPlaylist);
+                ((Follow) (commands.get(index))).setFollow(user, everyPlaylist);
 
             } else if (command.equals("switchVisibility")) {
                 commands.add((new SwitchVisibility(input.getCommand(), input.getUsername(),
                         input.getTimestamp(), input.getPlaylistId())));
 
-                ((SwitchVisibility) (commands.getLast())).setVisibility(user);
+                ((SwitchVisibility) (commands.get(index))).setVisibility(user);
 
             } else if (command.equals("getTop5Playlists")) {
                 commands.add(new GetTop5Playlists(input.getCommand(), input.getTimestamp()));
 
-                ((GetTop5Playlists) (commands.getLast())).searchTop5Playlists(everyPlaylist);
+                ((GetTop5Playlists) (commands.get(index))).searchTop5Playlists(everyPlaylist);
 
             } else if (command.equals("getTop5Songs")) {
                 commands.add(new GetTop5Songs(input.getCommand(), input.getTimestamp()));
 
-                ((GetTop5Songs) (commands.getLast())).searchTop5Songs(songs);
+                ((GetTop5Songs) (commands.get(index))).searchTop5Songs(songs);
             }
         }
 //        parsing the requeriments

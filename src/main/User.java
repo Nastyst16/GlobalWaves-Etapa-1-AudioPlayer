@@ -186,14 +186,17 @@ public class User {
         } else if (user.getTypeLoaded() == 2) {
 
             if (user.getRepeatStatus() == 1 && user.getRemainingTime() < 0) {
+
+                int index = user.getCurrentPlaylist().getSongList().size() - 1;
 //                if the last song is playing
-                if (user.getCurrentPlaylist().getSongList().getLast().
+                if (user.getCurrentPlaylist().getSongList().get(index).
                         getName().equals(user.getSelectedName())) {
-                    currentType = user.getCurrentPlaylist().getSongList().getFirst();
+                    currentType = user.getCurrentPlaylist().getSongList().get(0);
                     currentType.setSecondsGone(currentType.getDuration() + user.getRemainingTime());
                 }
             }
         }
+
 
         if (user.getTypeLoaded() == 1) {
 //            comutam in episodul urmator pana cand este nevoie
@@ -219,12 +222,14 @@ public class User {
             while (user.getRemainingTime() <= 0) {
                 Playlist playlist = user.getCurrentPlaylist();
 
+                int index = user.getCurrentPlaylist().getSongList().size() - 1;
+
                 if (user.getRepeatStatus() == 1 && user.getCurrentPlaylist().
-                        getSongList().getLast().getName().equals(currentType.getName())) {
+                        getSongList().get(index).getName().equals(currentType.getName())) {
 
                     int secsGone = currentType.getSecondsGone() - currentType.getDuration();
 
-                    currentType = user.getCurrentPlaylist().getSongList().getFirst();
+                    currentType = user.getCurrentPlaylist().getSongList().get(0);
                     currentType.setSecondsGone(secsGone);
                     user.setRemainingTime(currentType.getDuration() - currentType.getSecondsGone());
 
@@ -241,7 +246,7 @@ public class User {
                     if (nextShuffledIndex == user.getShuffledIndices().size()
                             && user.getRepeatStatus() == 1) {
 
-                        int firstIndex = user.getShuffledIndices().getFirst();
+                        int firstIndex = user.getShuffledIndices().get(0);
                         currentType = user.getCurrentPlaylist().getSongList().get(firstIndex);
                         currentType.setSecondsGone(Math.abs(user.getRemainingTime()));
                         user.setRemainingTime(currentType.getDuration()
