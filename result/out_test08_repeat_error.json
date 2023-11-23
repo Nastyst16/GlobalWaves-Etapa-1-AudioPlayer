@@ -2,8 +2,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 1000,
-  "message" : "Search returned 4 results",
-  "results" : [ "The Unforgiven", "Sad But True", "Nothing Else Matters", "Enter Sandman" ]
+  "results" : [ "The Unforgiven", "Sad But True", "Nothing Else Matters", "Enter Sandman" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "repeat",
   "user" : "emily30",
@@ -76,8 +76,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2245,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "repeat",
   "user" : "emily30",
@@ -108,8 +108,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 3170,
-  "message" : "Search returned 1 results",
-  "results" : [ "99 Problems" ]
+  "results" : [ "99 Problems" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -145,8 +145,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 3260,
-  "message" : "Search returned 1 results",
-  "results" : [ "My favourite songs" ]
+  "results" : [ "My favourite songs" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "repeat",
   "user" : "emily30",

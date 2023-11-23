@@ -1,20 +1,25 @@
 package main.Commands.Player;
 
 import main.Command;
-import main.Playlist;
+import main.Commands.Types.Playlist;
 import main.User;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
 public class ShowPlaylists implements Command {
-    private String command;
-    private String user;
-    private int timestamp;
-    private ArrayList<Playlist> result;
+    private final String command;
+    private final String user;
+    private final int timestamp;
+    private final ArrayList<Playlist> result;
 
-    public ShowPlaylists(String command, String user, int timestamp) {
+    /**
+     * Constructor
+     *
+     * @param command   the command
+     * @param user      the user
+     * @param timestamp the timestamp
+     */
+    public ShowPlaylists(final String command, final String user, final int timestamp) {
         this.command = command;
         this.user = user;
         this.timestamp = timestamp;
@@ -22,46 +27,68 @@ public class ShowPlaylists implements Command {
 
     }
 
-    public void copyPlaylists(User currentUser, ArrayList<Playlist> copyList) {
+    /**
+     * Copy playlists.
+     *
+     * @param currentUser the current user
+     * @param copyList    the copy list
+     */
+    public void copyPlaylists(final User currentUser, final ArrayList<Playlist> copyList) {
 
         for (int i = 0; i < currentUser.getPlayListList().size(); i++) {
             copyList.add(new Playlist(currentUser.getPlayListList().get(i)));
         }
-
     }
 
+    /**
+     * Gets command.
+     *
+     * @return the command
+     */
     public String getCommand() {
         return command;
     }
 
-    public void setCommand(String command) {
-        this.command = command;
-    }
-
+    /**
+     * Gets user.
+     *
+     * @return the user
+     */
     public String getUser() {
         return user;
     }
 
-    public void setUser(String user) {
-        this.user = user;
-    }
-
+    /**
+     * Gets timestamp.
+     *
+     * @return the timestamp
+     */
     public int getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(int timestamp) {
-        this.timestamp = timestamp;
-    }
-
+    /**
+     * Gets result.
+     *
+     * @return the result
+     */
     public ArrayList<Playlist> getResult() {
         return result;
     }
 
-    public void setResult(ArrayList<Playlist> result) {
-        this.result = result;
+    /**
+     * Sets result.
+     *
+     * @param result the result
+     */
+    public void setResult(final ArrayList<Playlist> result) {
+        this.result.clear();
+        this.result.addAll(result);
     }
 
+    /**
+     * Execute the command.
+     */
     @Override
     public void execute() {
 

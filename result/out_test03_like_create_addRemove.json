@@ -7,8 +7,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10,
-  "message" : "Search returned 1 results",
-  "results" : [ "Stairway to Heaven" ]
+  "results" : [ "Stairway to Heaven" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -38,8 +38,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 30,
-  "message" : "Search returned 1 results",
-  "results" : [ "The Unforgiven" ]
+  "results" : [ "The Unforgiven" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -89,8 +89,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 63,
-  "message" : "Search returned 1 results",
-  "results" : [ "Playlist bengos" ]
+  "results" : [ "Playlist bengos" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",

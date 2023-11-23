@@ -7,8 +7,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 170,
-  "message" : "Search returned 1 results",
-  "results" : [ "Going Bad" ]
+  "results" : [ "Going Bad" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -28,8 +28,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 270,
-  "message" : "Search returned 1 results",
-  "results" : [ "Swimming Pools (Drank)" ]
+  "results" : [ "Swimming Pools (Drank)" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -49,8 +49,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 1000,
-  "message" : "Search returned 1 results",
-  "results" : [ "My favourite songs" ]
+  "results" : [ "My favourite songs" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "prev",
   "user" : "emily30",
@@ -139,8 +139,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2000,
-  "message" : "Search returned 2 results",
-  "results" : [ "The Daily", "The Daily Show With Trevor Noah" ]
+  "results" : [ "The Daily", "The Daily Show With Trevor Noah" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "forward",
   "user" : "emily30",
@@ -197,8 +197,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 4200,
-  "message" : "Search returned 3 results",
-  "results" : [ "DNA.", "Championships", "99 Problems" ]
+  "results" : [ "DNA.", "Championships", "99 Problems" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "emily30",

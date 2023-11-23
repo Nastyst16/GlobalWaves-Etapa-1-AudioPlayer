@@ -2,36 +2,44 @@ package main.Commands.Player;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import main.Command;
-import main.Type;
+import main.Commands.Types.Type;
 import main.User;
 
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Random;
 
 public class Shuffle implements Command {
-    private String command;
-    private String user;
-    private int timestamp;
-    private int seed;
+    private final String command;
+    private final String user;
+    private final int timestamp;
+    private final int seed;
     private String message;
 
-
-    public Shuffle(String command, String user, int timestamp, int seed) {
+    /**
+     * Constructor
+     *
+     * @param command   the command
+     * @param user      the user
+     * @param timestamp the timestamp
+     * @param seed      the seed
+     */
+    public Shuffle(final String command, final String user, final int timestamp, final int seed) {
         this.command = command;
         this.user = user;
         this.timestamp = timestamp;
         this.seed = seed;
     }
 
-
-    public void settingShuffle(User currentUser) {
+    /**
+     * settingShuffle
+     * @param currentUser the current user
+     */
+    public void settingShuffle(final User currentUser) {
         Type currentType = currentUser.getCurrentType();
 
         if (currentType != null && currentUser.getTypeLoaded() == 2) {
 
-            if (currentUser.isShuffle() == false) {
+            if (!currentUser.isShuffle()) {
                 this.message = "Shuffle function activated successfully.";
                 currentUser.setShuffle(true);
 
@@ -43,7 +51,6 @@ public class Shuffle implements Command {
                 Random rand = new Random(this.seed);
                 Collections.shuffle(currentUser.getShuffledIndices(), rand);
 
-                int x = 5;
             } else {
                 this.message = "Shuffle function deactivated successfully.";
                 currentUser.setShuffle(false);
@@ -59,54 +66,67 @@ public class Shuffle implements Command {
         } else if (currentType == null) {
             this.message = "Please load a source before using the shuffle function.";
         }
-
-
     }
 
-
-
-
+    /**
+     * Gets command.
+     *
+     * @return the command
+     */
     public String getCommand() {
         return command;
     }
 
-    public void setCommand(String command) {
-        this.command = command;
-    }
-
+    /**
+     * Gets user.
+     *
+     * @return the user
+     */
     public String getUser() {
         return user;
     }
 
-    public void setUser(String user) {
-        this.user = user;
-    }
-
+    /**
+     * Gets timestamp.
+     *
+     * @return the timestamp
+     */
     public int getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(int timestamp) {
-        this.timestamp = timestamp;
-    }
 
+    /**
+     * Gets seed.
+     *
+     * @return the seed
+     */
+    @JsonIgnore
     public int getSeed() {
         return seed;
     }
 
-    @JsonIgnore
-    public void setSeed(int seed) {
-        this.seed = seed;
-    }
-
+    /**
+     * Gets message.
+     *
+     * @return the message
+     */
     public String getMessage() {
         return message;
     }
 
-    public void setMessage(String message) {
+    /**
+     * Sets message.
+     *
+     * @param message the message
+     */
+    public void setMessage(final String message) {
         this.message = message;
     }
 
+    /**
+     * Execute the command.
+     */
     @Override
     public void execute() {
 

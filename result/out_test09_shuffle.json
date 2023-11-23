@@ -7,8 +7,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
-  "message" : "Search returned 1 results",
-  "results" : [ "Nothing Else Matters" ]
+  "results" : [ "Nothing Else Matters" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -28,8 +28,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 270,
-  "message" : "Search returned 1 results",
-  "results" : [ "Crazy" ]
+  "results" : [ "Crazy" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -49,8 +49,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 370,
-  "message" : "Search returned 1 results",
-  "results" : [ "Elevate" ]
+  "results" : [ "Elevate" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -70,8 +70,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 445,
-  "message" : "Search returned 1 results",
-  "results" : [ "I Don't Wanna Live Forever" ]
+  "results" : [ "I Don't Wanna Live Forever" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -91,8 +91,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 500,
-  "message" : "Search returned 1 results",
-  "results" : [ "Hustle Hard" ]
+  "results" : [ "Hustle Hard" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -112,8 +112,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 590,
-  "message" : "Search returned 1 results",
-  "results" : [ "Begin Again" ]
+  "results" : [ "Begin Again" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -133,8 +133,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 700,
-  "message" : "Search returned 1 results",
-  "results" : [ "My playlist" ]
+  "results" : [ "My playlist" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -236,8 +236,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 2351,
-  "message" : "Search returned 1 results",
-  "results" : [ "My playlist" ]
+  "results" : [ "My playlist" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",

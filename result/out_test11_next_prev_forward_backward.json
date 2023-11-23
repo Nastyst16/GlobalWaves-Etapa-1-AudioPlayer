@@ -7,8 +7,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
-  "message" : "Search returned 5 results",
-  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -28,8 +28,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 270,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "Don't", "Maps", "The Man", "Freedom" ]
+  "results" : [ "Shape of You", "Don't", "Maps", "The Man", "Freedom" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -49,8 +49,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 370,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Big Pimpin'", "The Unforgiven" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Big Pimpin'", "The Unforgiven" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -70,8 +70,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 440,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Big Pimpin'", "The Unforgiven" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Big Pimpin'", "The Unforgiven" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -102,8 +102,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 500,
-  "message" : "Search returned 1 results",
-  "results" : [ "My favourite songs" ]
+  "results" : [ "My favourite songs" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -182,8 +182,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 800,
-  "message" : "Search returned 1 results",
-  "results" : [ "How I Built This" ]
+  "results" : [ "How I Built This" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -225,8 +225,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1198,
-  "message" : "Search returned 1 results",
-  "results" : [ "How I Built This" ]
+  "results" : [ "How I Built This" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",

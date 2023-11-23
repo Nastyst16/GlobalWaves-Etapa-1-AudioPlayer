@@ -127,8 +127,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 300,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -148,8 +148,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 325,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -169,8 +169,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 350,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -190,8 +190,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 375,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -211,8 +211,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 400,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -232,8 +232,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 425,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -253,8 +253,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 450,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -274,8 +274,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 475,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -295,8 +295,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 500,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -316,8 +316,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 525,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -337,8 +337,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 550,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -358,8 +358,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 575,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -379,8 +379,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 600,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -400,8 +400,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 625,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -421,8 +421,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 650,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -442,8 +442,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 675,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -463,8 +463,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 700,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -484,8 +484,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 725,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -505,8 +505,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 750,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -526,8 +526,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 775,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -547,8 +547,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 800,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -568,8 +568,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 825,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -589,8 +589,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 850,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -610,8 +610,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 875,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -631,8 +631,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 900,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -652,8 +652,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 925,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -673,8 +673,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 950,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -694,8 +694,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 975,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -715,8 +715,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1000,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -736,8 +736,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1025,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -757,8 +757,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1050,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -778,8 +778,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1075,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -799,8 +799,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1100,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -820,8 +820,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1125,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -841,8 +841,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1150,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -862,8 +862,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1175,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -883,8 +883,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1200,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -904,8 +904,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1225,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -925,8 +925,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1250,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -946,8 +946,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1275,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -967,8 +967,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1300,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -988,8 +988,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1325,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1009,8 +1009,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1350,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1030,8 +1030,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1375,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1051,8 +1051,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1400,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1072,8 +1072,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1425,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1093,8 +1093,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1450,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1114,8 +1114,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1475,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1135,8 +1135,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1500,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1156,8 +1156,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1525,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1177,8 +1177,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1550,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1198,8 +1198,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1575,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1219,8 +1219,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1600,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1240,8 +1240,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1625,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1261,8 +1261,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1650,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1282,8 +1282,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1675,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1303,8 +1303,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1700,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1324,8 +1324,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1725,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1345,8 +1345,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1750,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1366,8 +1366,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1775,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -1387,8 +1387,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1800,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1408,8 +1408,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1825,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1429,8 +1429,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1850,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1450,8 +1450,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1875,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1471,8 +1471,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1900,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1492,8 +1492,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1925,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1513,8 +1513,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1950,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1534,8 +1534,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1975,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1555,8 +1555,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2000,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1576,8 +1576,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2025,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1597,8 +1597,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2050,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1618,8 +1618,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2075,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1639,8 +1639,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2100,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1660,8 +1660,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2125,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1681,8 +1681,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2150,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1702,8 +1702,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2175,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1723,8 +1723,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2200,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1744,8 +1744,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2225,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1765,8 +1765,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2250,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1786,8 +1786,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2275,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -1807,8 +1807,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2300,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -1828,8 +1828,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2325,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -1849,8 +1849,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2350,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -1870,8 +1870,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2375,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -1891,8 +1891,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2400,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -1912,8 +1912,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2425,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -1933,8 +1933,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2450,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -1954,8 +1954,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2475,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -1975,8 +1975,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2500,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -1996,8 +1996,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2525,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -2017,8 +2017,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2550,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -2038,8 +2038,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2575,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -2059,8 +2059,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2600,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -2080,8 +2080,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2625,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -2101,8 +2101,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2650,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -2122,8 +2122,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2675,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -2143,8 +2143,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2700,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -2164,8 +2164,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2725,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -2185,8 +2185,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2750,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -2206,8 +2206,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2775,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -2227,8 +2227,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2800,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2248,8 +2248,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2825,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2269,8 +2269,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2850,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2290,8 +2290,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2875,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2311,8 +2311,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2900,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2332,8 +2332,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2925,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2353,8 +2353,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2950,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2374,8 +2374,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2975,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2395,8 +2395,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3000,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2416,8 +2416,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3025,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2437,8 +2437,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3050,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2458,8 +2458,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3075,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2479,8 +2479,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3100,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2500,8 +2500,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3125,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2521,8 +2521,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3150,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2542,8 +2542,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3175,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2563,8 +2563,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3200,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2584,8 +2584,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3225,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2605,8 +2605,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3250,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2626,8 +2626,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3275,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -2647,8 +2647,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3300,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2668,8 +2668,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3325,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2689,8 +2689,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3350,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2710,8 +2710,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3375,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2731,8 +2731,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3400,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2752,8 +2752,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3425,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2773,8 +2773,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3450,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2794,8 +2794,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3475,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2815,8 +2815,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3500,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2836,8 +2836,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3525,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2857,8 +2857,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3550,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2878,8 +2878,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3575,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2899,8 +2899,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3600,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2920,8 +2920,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3625,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2941,8 +2941,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3650,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2962,8 +2962,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3675,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2983,8 +2983,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3700,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -3004,8 +3004,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3725,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -3025,8 +3025,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3750,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -3046,8 +3046,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3775,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -3067,8 +3067,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3800,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3088,8 +3088,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3825,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3109,8 +3109,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3850,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3130,8 +3130,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3875,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3151,8 +3151,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3900,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3172,8 +3172,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3925,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3193,8 +3193,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3950,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3214,8 +3214,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3975,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3235,8 +3235,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4000,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3256,8 +3256,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4025,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3277,8 +3277,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4050,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3298,8 +3298,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4075,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3319,8 +3319,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4100,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3340,8 +3340,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4125,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3361,8 +3361,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4150,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3382,8 +3382,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4175,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3403,8 +3403,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4200,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3424,8 +3424,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4225,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3445,8 +3445,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4250,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3466,8 +3466,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4275,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3487,8 +3487,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4300,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3508,8 +3508,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4325,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3529,8 +3529,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4350,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3550,8 +3550,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4375,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3571,8 +3571,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4400,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3592,8 +3592,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4425,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3613,8 +3613,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4450,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3634,8 +3634,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4475,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3655,8 +3655,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4500,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3676,8 +3676,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4525,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3697,8 +3697,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4550,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3718,8 +3718,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4575,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3739,8 +3739,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4600,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3760,8 +3760,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4625,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3781,8 +3781,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4650,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3802,8 +3802,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4675,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3823,8 +3823,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4700,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3844,8 +3844,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4725,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3865,8 +3865,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4750,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3886,8 +3886,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4775,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -3907,8 +3907,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4800,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -3928,8 +3928,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4825,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -3949,8 +3949,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4850,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -3970,8 +3970,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4875,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -3991,8 +3991,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4900,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4012,8 +4012,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4925,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4033,8 +4033,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4950,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4054,8 +4054,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4975,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4075,8 +4075,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5000,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4096,8 +4096,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5025,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4117,8 +4117,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5050,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4138,8 +4138,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5075,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4159,8 +4159,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5100,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4180,8 +4180,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5125,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4201,8 +4201,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5150,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4222,8 +4222,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5175,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4243,8 +4243,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5200,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4264,8 +4264,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5225,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ]
+  "results" : [ "Don't", "Start Me Up", "Sad But True", "Maps", "Gimme Shelter" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4285,8 +4285,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5250,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4306,8 +4306,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5275,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -4477,8 +4477,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 5400,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -4493,8 +4493,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 5410,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -4509,8 +4509,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 5420,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -4525,8 +4525,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 5430,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -4541,8 +4541,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 5440,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -4557,8 +4557,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 5450,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -4573,8 +4573,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 5460,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -4589,8 +4589,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 5470,
-  "message" : "Search returned 2 results",
-  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ]
+  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -4605,8 +4605,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 5480,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -4621,8 +4621,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5490,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -7330,8 +7330,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 6990,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -7346,8 +7346,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7000,
-  "message" : "Search returned 1 results",
-  "results" : [ "Breezy Bangers Quest #2" ]
+  "results" : [ "Breezy Bangers Quest #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -7362,8 +7362,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 7010,
-  "message" : "Search returned 1 results",
-  "results" : [ "Chill Tracks Safari #2" ]
+  "results" : [ "Chill Tracks Safari #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -7378,8 +7378,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 7020,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -7394,8 +7394,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7030,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -7410,8 +7410,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7040,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -7426,8 +7426,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7050,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -7442,8 +7442,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 7060,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -7458,8 +7458,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 7070,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -7474,8 +7474,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 7080,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -7490,8 +7490,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 7090,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -7506,8 +7506,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7100,
-  "message" : "Search returned 1 results",
-  "results" : [ "Chill Tracks Safari #2" ]
+  "results" : [ "Chill Tracks Safari #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -7522,8 +7522,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 7110,
-  "message" : "Search returned 1 results",
-  "results" : [ "Classic Harmonies Quest #1" ]
+  "results" : [ "Classic Harmonies Quest #1" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -7538,8 +7538,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 7120,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -7554,8 +7554,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7130,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -7570,8 +7570,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7140,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -7586,8 +7586,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7150,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -7602,8 +7602,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 7160,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -7618,8 +7618,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 7170,
-  "message" : "Search returned 1 results",
-  "results" : [ "Breezy Bangers Quest #2" ]
+  "results" : [ "Breezy Bangers Quest #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -7634,8 +7634,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 7180,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -7650,8 +7650,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 7190,
-  "message" : "Search returned 1 results",
-  "results" : [ "Classic Harmonies Quest #1" ]
+  "results" : [ "Classic Harmonies Quest #1" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -7666,8 +7666,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7200,
-  "message" : "Search returned 1 results",
-  "results" : [ "Chill Tracks Safari #2" ]
+  "results" : [ "Chill Tracks Safari #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -7682,8 +7682,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 7210,
-  "message" : "Search returned 1 results",
-  "results" : [ "Classic Harmonies Quest #1" ]
+  "results" : [ "Classic Harmonies Quest #1" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -7698,8 +7698,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 7220,
-  "message" : "Search returned 1 results",
-  "results" : [ "Breezy Bangers Quest #2" ]
+  "results" : [ "Breezy Bangers Quest #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -7714,8 +7714,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7230,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -7730,8 +7730,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7240,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -7746,8 +7746,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7250,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -7762,8 +7762,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 7260,
-  "message" : "Search returned 1 results",
-  "results" : [ "Breezy Bangers Quest #2" ]
+  "results" : [ "Breezy Bangers Quest #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -7778,8 +7778,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 7270,
-  "message" : "Search returned 1 results",
-  "results" : [ "Classic Harmonies Quest #1" ]
+  "results" : [ "Classic Harmonies Quest #1" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -7794,8 +7794,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 7280,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -7810,8 +7810,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 7290,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -7826,8 +7826,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7300,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -7842,8 +7842,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 7310,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -7858,8 +7858,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 7320,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -7874,8 +7874,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7330,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -7890,8 +7890,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7340,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -7906,8 +7906,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7350,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -7922,8 +7922,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 7360,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -7938,8 +7938,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 7370,
-  "message" : "Search returned 1 results",
-  "results" : [ "Classic Harmonies Quest #1" ]
+  "results" : [ "Classic Harmonies Quest #1" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -7954,8 +7954,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 7380,
-  "message" : "Search returned 1 results",
-  "results" : [ "Chill Tracks Safari #2" ]
+  "results" : [ "Chill Tracks Safari #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -7970,8 +7970,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 7390,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -7986,8 +7986,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7400,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -8002,8 +8002,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 7410,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -8018,8 +8018,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 7420,
-  "message" : "Search returned 1 results",
-  "results" : [ "Classic Harmonies Quest #1" ]
+  "results" : [ "Classic Harmonies Quest #1" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -8034,8 +8034,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7430,
-  "message" : "Search returned 1 results",
-  "results" : [ "Breezy Bangers Quest #2" ]
+  "results" : [ "Breezy Bangers Quest #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -8050,8 +8050,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7440,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -8066,8 +8066,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7450,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -8082,8 +8082,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 7460,
-  "message" : "Search returned 1 results",
-  "results" : [ "Classic Harmonies Quest #1" ]
+  "results" : [ "Classic Harmonies Quest #1" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -8098,8 +8098,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 7470,
-  "message" : "Search returned 1 results",
-  "results" : [ "Classic Harmonies Quest #1" ]
+  "results" : [ "Classic Harmonies Quest #1" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -8114,8 +8114,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 7480,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -8130,8 +8130,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 7490,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -8146,8 +8146,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7500,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -8162,8 +8162,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 7510,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -8178,8 +8178,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 7520,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -8194,8 +8194,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7530,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -8210,8 +8210,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7540,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -8226,8 +8226,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7550,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -8242,8 +8242,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 7560,
-  "message" : "Search returned 1 results",
-  "results" : [ "Breezy Bangers Quest #2" ]
+  "results" : [ "Breezy Bangers Quest #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -8258,8 +8258,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 7570,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -8274,8 +8274,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 7580,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -8290,8 +8290,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 7590,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -8306,8 +8306,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7600,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -8322,8 +8322,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 7610,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -8338,8 +8338,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 7620,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -8354,8 +8354,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7630,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -8370,8 +8370,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7640,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -8386,8 +8386,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7650,
-  "message" : "Search returned 1 results",
-  "results" : [ "Chill Tracks Safari #2" ]
+  "results" : [ "Chill Tracks Safari #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -8402,8 +8402,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 7660,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -8418,8 +8418,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 7670,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -8434,8 +8434,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 7680,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -8450,8 +8450,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 7690,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -8466,8 +8466,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7700,
-  "message" : "Search returned 1 results",
-  "results" : [ "Classic Harmonies Quest #1" ]
+  "results" : [ "Classic Harmonies Quest #1" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -8482,8 +8482,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 7710,
-  "message" : "Search returned 1 results",
-  "results" : [ "Breezy Bangers Quest #2" ]
+  "results" : [ "Breezy Bangers Quest #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -8498,8 +8498,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 7720,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -8514,8 +8514,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7730,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -8530,8 +8530,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7740,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -8546,8 +8546,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7750,
-  "message" : "Search returned 1 results",
-  "results" : [ "Chill Tracks Safari #2" ]
+  "results" : [ "Chill Tracks Safari #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -8562,8 +8562,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 7760,
-  "message" : "Search returned 2 results",
-  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ]
+  "results" : [ "Vibey Tracks Safari #1", "Chill Tracks Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -8578,8 +8578,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 7770,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -8594,8 +8594,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 7780,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ]
+  "results" : [ "Classic Harmonies Quest #1", "Mellow Tracks Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -8610,8 +8610,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 7790,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -8626,8 +8626,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7800,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -8642,8 +8642,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 7810,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -8658,8 +8658,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 7820,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -8674,8 +8674,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7830,
-  "message" : "Search returned 1 results",
-  "results" : [ "Classic Harmonies Quest #1" ]
+  "results" : [ "Classic Harmonies Quest #1" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -8690,8 +8690,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7840,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -8706,8 +8706,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7850,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -8722,8 +8722,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 7860,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -8738,8 +8738,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 7870,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -8754,8 +8754,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 7880,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -8770,8 +8770,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 7890,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -8786,8 +8786,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 7900,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -8802,8 +8802,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 7910,
-  "message" : "Search returned 1 results",
-  "results" : [ "Chill Tracks Safari #2" ]
+  "results" : [ "Chill Tracks Safari #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -8818,8 +8818,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 7920,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -8834,8 +8834,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7930,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -8850,8 +8850,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7940,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -8866,8 +8866,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 7950,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -8882,8 +8882,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 7960,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -8898,8 +8898,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 7970,
-  "message" : "Search returned 1 results",
-  "results" : [ "Chill Tracks Safari #2" ]
+  "results" : [ "Chill Tracks Safari #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -8914,8 +8914,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 7980,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -8930,8 +8930,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 7990,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -8946,8 +8946,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 8000,
-  "message" : "Search returned 1 results",
-  "results" : [ "Classic Harmonies Quest #1" ]
+  "results" : [ "Classic Harmonies Quest #1" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -8962,8 +8962,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 8010,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -8978,8 +8978,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 8020,
-  "message" : "Search returned 1 results",
-  "results" : [ "Breezy Bangers Quest #2" ]
+  "results" : [ "Breezy Bangers Quest #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -8994,8 +8994,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 8030,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -9010,8 +9010,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 8040,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -9026,8 +9026,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 8050,
-  "message" : "Search returned 1 results",
-  "results" : [ "Breezy Bangers Quest #2" ]
+  "results" : [ "Breezy Bangers Quest #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -9042,8 +9042,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 8060,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -9058,8 +9058,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 8070,
-  "message" : "Search returned 1 results",
-  "results" : [ "Classic Harmonies Quest #1" ]
+  "results" : [ "Classic Harmonies Quest #1" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -9074,8 +9074,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8080,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -9090,8 +9090,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 8090,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -9106,8 +9106,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 8100,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -9122,8 +9122,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 8110,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -9138,8 +9138,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 8120,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -9154,8 +9154,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 8130,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -9170,8 +9170,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 8140,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -9186,8 +9186,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 8150,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -9202,8 +9202,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 8160,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -9218,8 +9218,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 8170,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ]
+  "results" : [ "Epic Tracks Safari #1", "Stellar Rhythms Safari #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -9234,8 +9234,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8180,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -9250,8 +9250,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 8190,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -9266,8 +9266,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 8200,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -9282,8 +9282,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 8210,
-  "message" : "Search returned 1 results",
-  "results" : [ "Classic Harmonies Quest #1" ]
+  "results" : [ "Classic Harmonies Quest #1" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -9298,8 +9298,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 8220,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -9314,8 +9314,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 8230,
-  "message" : "Search returned 1 results",
-  "results" : [ "Classic Harmonies Quest #1" ]
+  "results" : [ "Classic Harmonies Quest #1" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -9330,8 +9330,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 8240,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -9346,8 +9346,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 8250,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -9362,8 +9362,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 8260,
-  "message" : "Search returned 1 results",
-  "results" : [ "Breezy Bangers Quest #2" ]
+  "results" : [ "Breezy Bangers Quest #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -9378,8 +9378,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 8270,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -9394,8 +9394,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8280,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -9410,8 +9410,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 8290,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -9426,8 +9426,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 8300,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ]
+  "results" : [ "Groovy Beats Dream #1", "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -9442,8 +9442,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 8310,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ]
+  "results" : [ "Electric Vibes Journey #1", "Chill Grooves Quest #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -9458,8 +9458,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 8320,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -9474,8 +9474,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 8330,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -9490,8 +9490,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 8340,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ]
+  "results" : [ "Electric Bangers Dream #1", "Electric Tunes Dream #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -9506,8 +9506,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 8350,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -9522,8 +9522,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 8360,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -9538,8 +9538,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 8370,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -9554,8 +9554,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8380,
-  "message" : "Search returned 1 results",
-  "results" : [ "Chill Tracks Safari #2" ]
+  "results" : [ "Chill Tracks Safari #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -9570,8 +9570,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 8390,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dynamic Tracks Trek #2" ]
+  "results" : [ "Dynamic Tracks Trek #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -9586,8 +9586,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 8400,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -9602,8 +9602,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 8410,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -9618,8 +9618,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 8420,
-  "message" : "Search returned 2 results",
-  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ]
+  "results" : [ "Electric Grooves Dream #1", "Groovy Beats Expedition #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -9634,8 +9634,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 8430,
-  "message" : "Search returned 1 results",
-  "results" : [ "Chill Tracks Safari #2" ]
+  "results" : [ "Chill Tracks Safari #2" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -9650,8 +9650,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 8440,
-  "message" : "Search returned 2 results",
-  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ]
+  "results" : [ "Epic Melodies Safari #1", "Breezy Bangers Quest #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -9666,8 +9666,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 8450,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -9682,8 +9682,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 8460,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -9698,8 +9698,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 8470,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -9714,8 +9714,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8480,
-  "message" : "Search returned 2 results",
-  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ]
+  "results" : [ "Classic Tunes Dream #1", "Electric Beats Escape #2" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "jack29",

@@ -7,8 +7,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
-  "message" : "Search returned 4 results",
-  "results" : [ "Stairway to Heaven", "Black Dog", "Whole Lotta Love", "Good Times Bad Times" ]
+  "results" : [ "Stairway to Heaven", "Black Dog", "Whole Lotta Love", "Good Times Bad Times" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -33,8 +33,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 470,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "Don't", "Money Trees", "Whatever You Need", "Maps" ]
+  "results" : [ "Shape of You", "Don't", "Money Trees", "Whatever You Need", "Maps" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -54,8 +54,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 570,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "The Unforgiven", "Start Me Up" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "The Unforgiven", "Start Me Up" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -80,8 +80,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 870,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "Don't", "Stairway to Heaven", "Money Trees", "Under Pressure" ]
+  "results" : [ "Shape of You", "Don't", "Stairway to Heaven", "Money Trees", "Under Pressure" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -101,8 +101,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 1000,
-  "message" : "Search returned 1 results",
-  "results" : [ "The Michelle Obama Podcast" ]
+  "results" : [ "The Michelle Obama Podcast" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -117,8 +117,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1270,
-  "message" : "Search returned 1 results",
-  "results" : [ "The Man" ]
+  "results" : [ "The Man" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -133,8 +133,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1400,
-  "message" : "Search returned 1 results",
-  "results" : [ "My second playlist" ]
+  "results" : [ "My second playlist" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -199,8 +199,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1680,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "results" : [ ],
+  "message" : "Search returned 0 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -220,8 +220,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1800,
-  "message" : "Search returned 1 results",
-  "results" : [ "My second playlist" ]
+  "results" : [ "My second playlist" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -236,8 +236,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 1865,
-  "message" : "Search returned 1 results",
-  "results" : [ "My second playlist" ]
+  "results" : [ "My second playlist" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",

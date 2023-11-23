@@ -1,46 +1,49 @@
 package main.Commands.Player;
 
 import main.Command;
-import main.Playlist;
+import main.Commands.Types.Playlist;
 import main.User;
-
 import java.util.ArrayList;
 
 public class Follow implements Command {
-    private String command;
-    private String user;
-    private int timestamp;
+    private final String command;
+    private final String user;
+    private final int timestamp;
     private String message;
 
 
-
-
-    public Follow(String command, String user, int timestamp) {
+    /**
+     * Constructor
+     * @param command the command
+     * @param user the user
+     * @param timestamp the timestamp
+     */
+    public Follow(final String command, final  String user, final int timestamp) {
         this.command = command;
         this.user = user;
         this.timestamp = timestamp;
     }
 
-    public void setFollow(User currentUser, ArrayList<Playlist> everyPlaylist) {
+    /**
+     * Follows or unfollows a playlist
+     * @param currentUser the current user
+     * @param everyPlaylist the list of all playlists
+     */
+    public void setFollow(final User currentUser, final ArrayList<Playlist> everyPlaylist) {
 
         if (currentUser.getCurrentSelect() == null) {
             this.message = "Please select a source before following or unfollowing.";
             return;
         }
-
         if (currentUser.getTypeSelected() != 2) {
             this.message = "The selected source is not a playlist.";
             return;
         }
-
-
         if (currentUser.getUsername().equals(currentUser.getSelectedPlaylist().getUser())) {
             this.message = "You cannot follow or unfollow your own playlist.";
             return;
         }
 
-
-//        currentUser.getFollowedPlaylists().remove(currentUser.getSelectedPlaylist());
         int indexPlaylist = everyPlaylist.indexOf(currentUser.getSelectedPlaylist());
 
         if (currentUser.getFollowedPlaylists().contains(currentUser.getSelectedPlaylist())) {
@@ -54,41 +57,41 @@ public class Follow implements Command {
             currentUser.getFollowedPlaylists().add(currentUser.getSelectedPlaylist());
             this.message = "Playlist followed successfully.";
         }
-
-
     }
 
-
-
+    /**
+     * @return the command
+     */
     public String getCommand() {
         return command;
     }
 
-    public void setCommand(String command) {
-        this.command = command;
-    }
-
+    /**
+     * @return the user
+     */
     public String getUser() {
         return user;
     }
 
-    public void setUser(String user) {
-        this.user = user;
-    }
-
+    /**
+     * @return the timestamp
+     */
     public int getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(int timestamp) {
-        this.timestamp = timestamp;
-    }
-
+    /**
+     * @return the message
+     */
     public String getMessage() {
         return message;
     }
 
-    public void setMessage(String message) {
+    /**
+     * Sets the message
+     * @param message the message to set
+     */
+    public void setMessage(final String message) {
         this.message = message;
     }
 

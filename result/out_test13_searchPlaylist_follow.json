@@ -7,8 +7,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
-  "message" : "Search returned 5 results",
-  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -43,8 +43,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 370,
-  "message" : "Search returned 5 results",
-  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -69,8 +69,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 470,
-  "message" : "Search returned 5 results",
-  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -90,8 +90,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 570,
-  "message" : "Search returned 5 results",
-  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -116,8 +116,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 870,
-  "message" : "Search returned 5 results",
-  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -137,8 +137,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1000,
-  "message" : "Search returned 1 results",
-  "results" : [ "My first playlist" ]
+  "results" : [ "My first playlist" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -198,8 +198,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1200,
-  "message" : "Search returned 1 results",
-  "results" : [ "The best" ]
+  "results" : [ "The best" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -214,8 +214,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 1300,
-  "message" : "Search returned 1 results",
-  "results" : [ "The best" ]
+  "results" : [ "The best" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",

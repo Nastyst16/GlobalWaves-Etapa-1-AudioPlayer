@@ -2,8 +2,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10,
-  "message" : "Search returned 1 results",
-  "results" : [ "TED Radio Hour" ]
+  "results" : [ "TED Radio Hour" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -29,8 +29,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 60,
-  "message" : "Search returned 1 results",
-  "results" : [ "Stairway to Heaven" ]
+  "results" : [ "Stairway to Heaven" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -45,8 +45,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 75,
-  "message" : "Search returned 1 results",
-  "results" : [ "TED Radio Hour" ]
+  "results" : [ "TED Radio Hour" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -93,8 +93,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 3215,
-  "message" : "Search returned 2 results",
-  "results" : [ "Freedom", "Freedom" ]
+  "results" : [ "Freedom", "Freedom" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -114,8 +114,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 3235,
-  "message" : "Search returned 1 results",
-  "results" : [ "Happier" ]
+  "results" : [ "Happier" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -135,8 +135,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 3255,
-  "message" : "Search returned 1 results",
-  "results" : [ "2010 hits" ]
+  "results" : [ "2010 hits" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",

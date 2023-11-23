@@ -1,4 +1,4 @@
-package main;
+package main.Commands.Types;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -6,16 +6,20 @@ import java.util.ArrayList;
 
 public class Playlist {
 
-    private String name;
-    private String user;
-    private ArrayList<Song> songList;
-    private ArrayList<String> songs;
+    private final String name;
+    private final String user;
+    private final ArrayList<Song> songList;
+    private final ArrayList<String> songs;
     private String visibility;
     private int followers;
 
 
-
-    public Playlist(Playlist playlist) {
+    /**
+     * Playlist constructor
+     * @param playlist contains every field of a playlist
+     *                 so we can copy them
+     */
+    public Playlist(final Playlist playlist) {
         this.name = playlist.getName();
         this.user = playlist.getUser();
         this.songList = playlist.getSongList();
@@ -23,7 +27,7 @@ public class Playlist {
         this.visibility = playlist.getVisibility();
         this.followers = playlist.getFollowers();
     }
-    public Playlist(String name, String user) {
+    public Playlist(final String name, final String user) {
         this.name = name;
         this.user = user;
         songList = new ArrayList<>();
@@ -32,15 +36,19 @@ public class Playlist {
         followers = 0;
     }
 
-    public String addRemoveSong(Song currentSong) {
+    /**
+     * Adds or removes a song from the playlist
+     * @param currentSong the song to be added or removed
+     * @return a message to be displayed
+     */
+    public String addRemoveSong(final Song currentSong) {
 
         String message;
         if (songList.contains(currentSong)) {
             songList.remove(currentSong);
             songs.remove(currentSong.getName());
             message = "Successfully removed from playlist.";
-        }
-        else {
+        } else {
             songList.add(currentSong);
             songs.add(currentSong.getName());
             message = "Successfully added to playlist.";
@@ -48,61 +56,82 @@ public class Playlist {
         return message;
     }
 
-
+    /**
+     * Gets the name of the playlist
+     * @return the name of the playlist
+     */
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
+    /**
+     * Gets the user
+     * @return the user
+     */
+    @JsonIgnore
     public String getUser() {
         return user;
     }
 
+    /**
+     * Gets the songs in the playlist
+     * @return the songs in the playlist
+     */
     @JsonIgnore
-    public void setUser(String user) {
-        this.user = user;
-    }
-
     public ArrayList<Song> getSongList() {
         return songList;
     }
 
-    @JsonIgnore
-    public void setSongList(ArrayList<Song> songList) {
-        this.songList = songList;
-    }
-
+    /**
+     * Gets the songs in the playlist
+     * @return the songs in the playlist
+     */
     public ArrayList<String> getSongs() {
         return songs;
     }
 
-    public void setSongs(ArrayList<String> songs) {
-        this.songs = songs;
-    }
-
+    /**
+     * Gets the visibility of the playlist
+     * @return the visibility of the playlist
+     */
     public String getVisibility() {
         return visibility;
     }
 
-    public void setVisibility(String visibility) {
+    /**
+     * Sets the visibility of the playlist
+     * @param visibility the visibility of the playlist
+     */
+    public void setVisibility(final String visibility) {
         this.visibility = visibility;
     }
 
+    /**
+     * Gets the number of followers
+     * @return the number of followers
+     */
     public int getFollowers() {
         return followers;
     }
 
-    public void setFollowers(int followers) {
+    /**
+     * Sets the number of followers
+     * @param followers the number of followers
+     */
+    public void setFollowers(final int followers) {
         this.followers = followers;
     }
 
+    /**
+     * Increments the number of followers
+     */
     public void incrementFollowers() {
         this.followers++;
     }
 
+    /**
+     * Decrements the number of followers
+     */
     public void decrementFollowers() {
         this.followers--;
     }

@@ -7,8 +7,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
-  "message" : "Search returned 3 results",
-  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ]
+  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -38,8 +38,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 270,
-  "message" : "Search returned 3 results",
-  "results" : [ "Freedom", "Happy", "Freedom" ]
+  "results" : [ "Freedom", "Happy", "Freedom" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -64,8 +64,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 370,
-  "message" : "Search returned 3 results",
-  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ]
+  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -85,8 +85,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 470,
-  "message" : "Search returned 2 results",
-  "results" : [ "Angie", "Nothing Else Matters" ]
+  "results" : [ "Angie", "Nothing Else Matters" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -106,8 +106,8 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 770,
-  "message" : "Search returned 3 results",
-  "results" : [ "Freedom", "Happy", "Freedom" ]
+  "results" : [ "Freedom", "Happy", "Freedom" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "carol19",
@@ -137,8 +137,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1170,
-  "message" : "Search returned 2 results",
-  "results" : [ "Angie", "Nothing Else Matters" ]
+  "results" : [ "Angie", "Nothing Else Matters" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "select",
   "user" : "david27",
@@ -168,8 +168,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2170,
-  "message" : "Search returned 3 results",
-  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ]
+  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -204,8 +204,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2460,
-  "message" : "Search returned 1 results",
-  "results" : [ "My first playlist" ]
+  "results" : [ "My first playlist" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -224,8 +224,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 2565,
-  "message" : "Search returned 1 results",
-  "results" : [ "Just for fun" ]
+  "results" : [ "Just for fun" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -240,8 +240,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2765,
-  "message" : "Search returned 1 results",
-  "results" : [ "Just for fun" ]
+  "results" : [ "Just for fun" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "david27",

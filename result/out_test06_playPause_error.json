@@ -7,8 +7,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 3215,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "Stairway to Heaven", "Dream On", "Black Dog", "Sad But True" ]
+  "results" : [ "Shape of You", "Stairway to Heaven", "Dream On", "Black Dog", "Sad But True" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -44,8 +44,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 3315,
-  "message" : "Search returned 2 results",
-  "results" : [ "TED Talks Daily", "TED-Ed: Lessons Worth Sharing" ]
+  "results" : [ "TED Talks Daily", "TED-Ed: Lessons Worth Sharing" ],
+  "message" : "Search returned 2 results"
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -55,8 +55,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 3375,
-  "message" : "Search returned 1 results",
-  "results" : [ "LoFi music" ]
+  "results" : [ "LoFi music" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -66,8 +66,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 3415,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -98,8 +98,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 3815,
-  "message" : "Search returned 3 results",
-  "results" : [ "Shape of You", "Happier", "Castle on the Hill" ]
+  "results" : [ "Shape of You", "Happier", "Castle on the Hill" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -125,8 +125,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 4015,
-  "message" : "Search returned 1 results",
-  "results" : [ "LoFi music" ]
+  "results" : [ "LoFi music" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -157,8 +157,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 4295,
-  "message" : "Search returned 5 results",
-  "results" : [ "Money Trees", "Big Pimpin'", "Whatever You Need", "Sicko Mode", "Empire State of Mind" ]
+  "results" : [ "Money Trees", "Big Pimpin'", "Whatever You Need", "Sicko Mode", "Empire State of Mind" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "load",
   "user" : "emily30",

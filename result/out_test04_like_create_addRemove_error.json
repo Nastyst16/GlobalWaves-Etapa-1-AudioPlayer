@@ -2,8 +2,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 5,
-  "message" : "Search returned 5 results",
-  "results" : [ "Money Trees", "Big Pimpin'", "Whatever You Need", "Sicko Mode", "Empire State of Mind" ]
+  "results" : [ "Money Trees", "Big Pimpin'", "Whatever You Need", "Sicko Mode", "Empire State of Mind" ],
+  "message" : "Search returned 5 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -23,8 +23,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 25,
-  "message" : "Search returned 1 results",
-  "results" : [ "The Joe Rogan Experience" ]
+  "results" : [ "The Joe Rogan Experience" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -49,8 +49,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 45,
-  "message" : "Search returned 3 results",
-  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ]
+  "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ],
+  "message" : "Search returned 3 results"
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
@@ -65,8 +65,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 60,
-  "message" : "Search returned 4 results",
-  "results" : [ "The Man", "Freedom", "Castle on the Hill", "Get Lucky" ]
+  "results" : [ "The Man", "Freedom", "Castle on the Hill", "Get Lucky" ],
+  "message" : "Search returned 4 results"
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -86,8 +86,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 75,
-  "message" : "Search returned 1 results",
-  "results" : [ "Playlist alb pentru zile negre" ]
+  "results" : [ "Playlist alb pentru zile negre" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "like",
   "user" : "emily30",

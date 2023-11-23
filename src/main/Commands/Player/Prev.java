@@ -1,24 +1,36 @@
 package main.Commands.Player;
 
 import main.Command;
-import main.Type;
+import main.Commands.Types.Type;
 import main.User;
 
 public class Prev implements Command {
-    private String command;
-    private String user;
-    private int timestamp;
+    private final String command;
+    private final String user;
+    private final int timestamp;
     private String message;
 
-
-    public Prev(String command, String user, int timestamp) {
+    /**
+     * Constructor
+     *
+     * @param command   the command to be executed
+     * @param user      the user that called the command
+     * @param timestamp the time when the command was called
+     */
+    public Prev(final String command, final String user, final int timestamp) {
         this.command = command;
         this.user = user;
         this.timestamp = timestamp;
     }
 
-
-    public void setPrev(User currentUser, Type currentType) {
+    /**
+     * Returns to the previous track
+     *
+     * @param currentUser the user that called the command
+     * @param currentType the current type
+     */
+    public void setPrev(final User currentUser) {
+        Type currentType = currentUser.getCurrentType();
 
         if (currentUser.getCurrentType() == null) {
             this.message = "Please load a source before returning to the previous track.";
@@ -34,13 +46,10 @@ public class Prev implements Command {
             if (currentType.getSecondsGone() > 0) {
                 currentType.setSecondsGone(0);
             } else if (currentType.getSecondsGone() == 0) {
-                if (currentUser.isShuffle()) { // aici e buba
+                if (currentUser.isShuffle()) {
 
-//                    int index = currentUser.getShuffledIndices().getFirst();
-//                    if (currentUser.getCurrentPlaylist().getSongList().get)
-
-
-                    int prevIndex = currentUser.getCurrentPlaylist().getSongList().indexOf(currentType);
+                    int prevIndex = currentUser.getCurrentPlaylist().
+                            getSongList().indexOf(currentType);
                     prevIndex = currentUser.getShuffledIndices().indexOf(prevIndex) - 1;
 
                     if (prevIndex == -1) {
@@ -51,13 +60,13 @@ public class Prev implements Command {
                         currentType.setSecondsGone(0);
                     }
 
-
                 } else {
 //                    if it's the first song of the playlist
                     if (currentUser.getCurrentPlaylist().getSongList().indexOf(currentType) == 0) {
                         currentType.setSecondsGone(0);
                     } else {
-                        int prevIndex = currentUser.getCurrentPlaylist().getSongList().indexOf(currentType) - 1;
+                        int prevIndex = currentUser.getCurrentPlaylist().
+                                getSongList().indexOf(currentType) - 1;
                         currentType = currentUser.getCurrentPlaylist().getSongList().get(prevIndex);
                         currentType.setSecondsGone(0);
                     }
@@ -76,43 +85,61 @@ public class Prev implements Command {
         currentUser.setPaused(false);
 
         if (currentUser.getCurrentType() != null) {
-            this.message = "Returned to previous track successfully. The current track is " + currentType.getName() + ".";
+            this.message = "Returned to previous track successfully. The current track is "
+                    + currentType.getName() + ".";
         }
+
+        currentUser.setCurrentType(currentType);
     }
 
-
+    /**
+     * gets the command
+     *
+     * @return the command
+     */
     public String getCommand() {
         return command;
     }
 
-    public void setCommand(String command) {
-        this.command = command;
-    }
-
+    /**
+     * gets the user
+     *
+     * @return the user
+     */
     public String getUser() {
         return user;
     }
 
-    public void setUser(String user) {
-        this.user = user;
-    }
-
+    /**
+     * gets the timestamp
+     *
+     * @return the timestamp
+     */
     public int getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(int timestamp) {
-        this.timestamp = timestamp;
-    }
-
+    /**
+     * gets the message
+     *
+     * @return the message
+     */
     public String getMessage() {
         return message;
     }
 
-    public void setMessage(String message) {
+    /**
+     * sets the message
+     *
+     * @param message the message to be set
+     */
+    public void setMessage(final String message) {
         this.message = message;
     }
 
+    /**
+     * Executes the command
+     */
     @Override
     public void execute() {
 

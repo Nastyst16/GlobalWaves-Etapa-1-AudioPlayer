@@ -2,8 +2,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dream Chaser" ]
+  "results" : [ "Dream Chaser" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -82,8 +82,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1006,
-  "message" : "Search returned 1 results",
-  "results" : [ "99 Problems" ]
+  "results" : [ "99 Problems" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -103,8 +103,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1010,
-  "message" : "Search returned 1 results",
-  "results" : [ "Hustle Hard" ]
+  "results" : [ "Hustle Hard" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -124,8 +124,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1014,
-  "message" : "Search returned 1 results",
-  "results" : [ "Butterfly Effect" ]
+  "results" : [ "Butterfly Effect" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -145,8 +145,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1018,
-  "message" : "Search returned 1 results",
-  "results" : [ "Moves Like Jagger" ]
+  "results" : [ "Moves Like Jagger" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -166,8 +166,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1022,
-  "message" : "Search returned 1 results",
-  "results" : [ "Dream Chaser" ]
+  "results" : [ "Dream Chaser" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",
@@ -187,8 +187,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1026,
-  "message" : "Search returned 1 results",
-  "results" : [ "My favourite songs" ]
+  "results" : [ "My favourite songs" ],
+  "message" : "Search returned 1 results"
 }, {
   "command" : "select",
   "user" : "alice22",

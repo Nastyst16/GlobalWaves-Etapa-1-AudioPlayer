@@ -1,63 +1,77 @@
 package main.Commands.Player;
 
 import main.Command;
-import main.Playlist;
-import main.Song;
+import main.Commands.Types.Song;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
 public class GetTop5Songs implements Command {
-    private String command;
-    private int timestamp;
-    private ArrayList<String> result;
+    private final String command;
+    private final int timestamp;
+    private final ArrayList<String> result;
+    private static final int TOP_NR = 5;
 
-    public GetTop5Songs(String command, int timestamp) {
+    /**
+     * Constructor
+     *
+     * @param command   the command
+     * @param timestamp the timestamp
+     */
+    public GetTop5Songs(final String command, final int timestamp) {
         this.command = command;
         this.timestamp = timestamp;
         result = new ArrayList<>();
     }
 
-    public void searchTop5Songs(ArrayList<Song> everySong) {
+    /**
+     * Search for the top 5 songs
+     *
+     * @param everySong all the songs
+     */
+    public void searchTop5Songs(final ArrayList<Song> everySong) {
 
         ArrayList<Song> sortedSong = new ArrayList<>(everySong);
-
         Collections.sort(sortedSong, Comparator.comparingInt(Song::getNumberOfLikes).reversed());
 
         int i = 0;
-        while (i < 5 && i < sortedSong.size()) {
+        while (i < TOP_NR && i < sortedSong.size()) {
             result.add(sortedSong.get(i).getName());
             i++;
         }
     }
 
-
+    /**
+     * Getter for the command
+     *
+     * @return the command
+     */
     public String getCommand() {
         return command;
     }
 
-    public void setCommand(String command) {
-        this.command = command;
-    }
-
+    /**
+     * Getter for the timestamp
+     *
+     * @return the timestamp
+     */
     public int getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(int timestamp) {
-        this.timestamp = timestamp;
-    }
-
-
+    /**
+     * Getter for the result
+     *
+     * @return the result
+     */
     public ArrayList<String> getResult() {
         return result;
     }
 
-    public void setResult(ArrayList<String> result) {
-        this.result = result;
-    }
-
+    /**
+     * Execute the command
+     */
     public void execute() {
 
     }

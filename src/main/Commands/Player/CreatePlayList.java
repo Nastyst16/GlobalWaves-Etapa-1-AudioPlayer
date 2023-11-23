@@ -2,21 +2,19 @@ package main.Commands.Player;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import main.Command;
-import main.Playlist;
-import main.Song;
-
-import java.util.ArrayList;
+import main.Commands.Types.Playlist;
 
 public class CreatePlayList implements Command {
-    private String command;
-    private String user;
-    private int timestamp;
+    private final String command;
+    private final String user;
+    private final int timestamp;
     private String playlistName;
-    private String message;
-    private Playlist playlist;
+    private final String message;
+    private  Playlist playlist;
 
 
-    public CreatePlayList(String command, String user, int timestamp, String playlistName, String message) {
+    public CreatePlayList(final String command, final String user, final int timestamp,
+                          final String playlistName, final String message) {
 
         this.command = command;
         this.user = user;
@@ -27,66 +25,67 @@ public class CreatePlayList implements Command {
     }
 
 
-
+    /**
+     * @return the command
+     */
     public String getCommand() {
         return command;
     }
 
-    public void setCommand(String command) {
-        this.command = command;
-    }
-
+    /**
+     * @return the user
+     */
     public String getUser() {
         return user;
     }
 
-    public void setUser(String user) {
-        this.user = user;
-    }
-
+    /**
+     * @return the timestamp
+     */
     public int getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(int timestamp) {
-        this.timestamp = timestamp;
-    }
-
+    /**
+     * @return the playlistName
+     */
     public String getPlaylistName() {
         return playlistName;
     }
 
+    /**
+     * @param playlistName the playlistName to set
+     */
     @JsonIgnore
-    public void setPlaylistName(String playlistName) {
+    public void setPlaylistName(final String playlistName) {
         this.playlistName = playlistName;
     }
 
+    /**
+     * @return the message
+     */
     public String getMessage() {
         return message;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
+    /**
+     * @return playlist
+     */
     public Playlist getPlaylist() {
         return playlist;
     }
 
+    /**
+     * @param playlist the playlist to set
+     */
     @JsonIgnore
-    public void setPlaylist(Playlist playlist) {
+    public void setPlaylist(final Playlist playlist) {
         this.playlist = playlist;
     }
 
-    //    public ArrayList<Song> getSongList() {
-//        return songList;
-//    }
-//
-//    @JsonIgnore
-//    public void setSongList(ArrayList<Song> songList) {
-//        this.songList = songList;
-//    }
-
+    /**
+     * @return the songs
+     */
     @Override
     public void execute() {
 

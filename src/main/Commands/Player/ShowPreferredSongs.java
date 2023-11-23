@@ -1,61 +1,83 @@
 package main.Commands.Player;
 
 import main.Command;
-import main.Song;
+import main.Commands.Types.Song;
 import main.User;
 
 import java.util.ArrayList;
 
 public class ShowPreferredSongs implements Command {
-    private String command;
-    private String user;
-    private int timestamp;
+    private final String command;
+    private final String user;
+    private final int timestamp;
+    private final ArrayList<String> result;
 
-    private ArrayList<String> result;
-
-    public ShowPreferredSongs(String command, String user, int timestamp) {
+    /**
+     * Constructor
+     *
+     * @param command   the command
+     * @param user      the user
+     * @param timestamp the timestamp
+     */
+    public ShowPreferredSongs(final String command, final String user, final int timestamp) {
         this.command = command;
         this.user = user;
         this.timestamp = timestamp;
         result = new ArrayList<>();
     }
 
+    /**
+     * Sets result.
+     *
+     * @param user the user
+     */
+    public void setResult(final User user) {
+        if (!user.getLikedSongs().isEmpty()) {
+            for (Song song : user.getLikedSongs()) {
+                this.result.add(song.getName());
+            }
+        }
+    }
 
+    /**
+     * Gets command.
+     *
+     * @return the command
+     */
     public String getCommand() {
         return command;
     }
 
-    public void setCommand(String command) {
-        this.command = command;
-    }
-
+    /**
+     * Gets user.
+     *
+     * @return the user
+     */
     public String getUser() {
         return user;
     }
 
-    public void setUser(String user) {
-        this.user = user;
-    }
-
+    /**
+     * Gets timestamp.
+     *
+     * @return the timestamp
+     */
     public int getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(int timestamp) {
-        this.timestamp = timestamp;
-    }
-
+    /**
+     * Gets result.
+     *
+     * @return the result
+     */
     public ArrayList<String> getResult() {
         return result;
     }
 
-    public void setResult(User user) {
-        if (!user.getLikedSongs().isEmpty())
-            for (Song song : user.getLikedSongs()) {
-                this.result.add(song.getName());
-            }
-    }
-
+    /**
+     * Execute.
+     */
     @Override
     public void execute() {
 

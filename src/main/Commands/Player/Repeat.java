@@ -1,24 +1,34 @@
 package main.Commands.Player;
 
 import main.Command;
-import main.Type;
 import main.User;
 
 public class Repeat implements Command {
-    private String command;
-    private String user;
-    private int timestamp;
+    private final String command;
+    private final String user;
+    private final int timestamp;
     private String message;
 
-    public Repeat(String command, String user, int timestamp) {
+    /**
+     * Repeat constructor
+     * @param command the command as a string
+     * @param user the user who called the command
+     * @param timestamp the time the command was called
+     */
+    public Repeat(final String command, final String user, final int timestamp) {
         this.command = command;
         this.user = user;
         this.timestamp = timestamp;
     }
 
-
-
-    public int setRepeatMessage(User currentUser, int repeatStatus, int typeLoaded) {
+    /**
+     * Sets the repeat status of the current user
+     * @param currentUser the current user
+     * @param repeatStatus the current repeat status
+     * @param typeLoaded the type of source loaded
+     * @return the new repeat status
+     */
+    public int setRepeatMessage(final User currentUser, int repeatStatus, final int typeLoaded) {
         if (currentUser.getCurrentType() == null) {
             this.message = "Please load a source before setting the repeat status.";
             return -1;
@@ -57,39 +67,49 @@ public class Repeat implements Command {
         return repeatStatus;
     }
 
-
+    /**
+     * Gets the command
+     * @return the command
+     */
     public String getCommand() {
         return command;
     }
 
-    public void setCommand(String command) {
-        this.command = command;
-    }
-
+    /**
+     * Gets the user
+     * @return the user
+     */
     public String getUser() {
         return user;
     }
 
-    public void setUser(String user) {
-        this.user = user;
-    }
-
+    /**
+     * Gets the timestamp
+     * @return the timestamp
+     */
     public int getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(int timestamp) {
-        this.timestamp = timestamp;
-    }
-
+    /**
+     * Gets the message
+     * @return the message
+     */
     public String getMessage() {
         return message;
     }
 
-    public void setMessage(String message) {
+    /**
+     * Sets the message
+     * @param message the message
+     */
+    public void setMessage(final String message) {
         this.message = message;
     }
 
+    /**
+     * Executes the command
+     */
     @Override
     public void execute() {
 
